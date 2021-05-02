@@ -2,8 +2,7 @@ function Calculate(){
     var a = 10;
     var b = 5;
 
-    var sum = +a+b;
-    console.log("sum = "+sum);
+    sum(a,b);
 
     difference(a,b);
 
@@ -24,5 +23,4 @@ function difference(a, b){
     var difference = +a-b;
     console.log("Differnce = "+difference);
 }
-
 Calculate();
