@@ -8,8 +8,7 @@ function Calculate(){
 
     prodcut(a, b);
 
-    var division = a/b;
-    console.log("Division = ",division);
+    division(a,b);
 }
 
 function sum(a, b){
@@ -28,5 +27,11 @@ function product(a, b){
     //This is added as part of devcon-1855
     var product = a*b;
     console.log("Product = ",product);
+}
+
+function division(a,b){
+    //This is added as part of devcon-1885
+    var division = a/b;
+    console.log("Division = ",division);
 }
 Calculate();
