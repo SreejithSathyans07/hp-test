@@ -4,8 +4,7 @@ function Calculate(){
 
     sum(a,b);
 
-    var difference = +a-b;
-    console.log("Differnce = "+difference);
+    difference(a,b);
 
     var product = a*b;
     console.log("Product = ",product);
@@ -19,4 +18,9 @@ function sum(a, b){
     console.log("sum = "+sum);
 }
 
+function difference(a, b){
+    //This is added as part of devcon-1707
+    var difference = +a-b;
+    console.log("Differnce = "+difference);
+}
 Calculate();
