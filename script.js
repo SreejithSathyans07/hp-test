@@ -14,8 +14,6 @@ function Calculate(){
     console.log("Division = ",division);
 }
 
-<<<<<<< Updated upstream
-=======
 function sum(a, b){
     var sum = +a+b;
     console.log("sum = "+sum);
@@ -27,5 +25,4 @@ function difference(a, b){
     console.log("Differnce = "+difference);
 }
 
->>>>>>> Stashed changes
 Calculate();
